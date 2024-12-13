@@ -12,4 +12,6 @@ method
 2. class method
 3. static method
 
+
+
 '''

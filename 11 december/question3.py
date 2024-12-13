@@ -13,5 +13,22 @@ obj.show_detail()
 
 obj1=Student("pragti",24)
 obj1.show_detail()
+'''
+
+declaration of instance variable
+
+
+# inside class
+# 1. through constructor
+# 2. through instance method
+
+# outside class
+# 1. through object
+
+# calling
+# inside class---> used self
+         #         1. constructor
+         #         2. instance
+# outside class---> used object
     
-   
+'''
