@@ -1,6 +1,6 @@
-x=10
+x=50
 class student:
-    x=50
+    x=10
     def add(self):
         print(x)
         x=20
