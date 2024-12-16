@@ -13,5 +13,6 @@ method
 3. static method
 
 
+1. instance method :-
 
 '''
