@@ -9,7 +9,7 @@ variable
 behavior/action of an object
 method
 1. Instance method
-2. class method
+2. class method ---> it is used to modify the static value of variable 
 3. static method
 
 
