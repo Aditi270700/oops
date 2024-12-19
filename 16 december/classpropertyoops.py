@@ -1,17 +1,25 @@
-class p:
-    def __init__(self,p_name):
-        self.x=p_name
-    def p_properties(self,home,bank):
+class gf:               #multi level inheritance
+    def name(self,name):
+        self.n=name
+class P(gf):
+    def __init__(self,P_name):
+        self.x=P_name
+    def P_properties(self,home,bank):
         self.h=home
         self.b=bank
-class c(p):
-    def c_property(self,qualification):
-        self.q=qualification
         print(self.h)
         print(self.b)
+class C(P):
+    def C_property(self,qualification):
+        self.q=qualification
+        self.P_properties("bhopal","central")
+        # print(self.h)
+        # print(self.b)
         print(self.q)
         print(self.x)
-obj=c('Aditi')
-obj.p_properties('bhopal','central')
-obj.c_property('BSC')
+        self.name("Aditi Saudagar")
+        print(self.n)
+obj=C('Aditi')
+# obj.P_properties('bhopal','central')
+obj.C_property('BSC')
 
