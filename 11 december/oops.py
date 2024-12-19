@@ -13,6 +13,8 @@ method
 3. static method
 
 
-1. instance method :-
-
+polymorphism---> same name function and different argument is called polymorphism
+there are two types
+1. method overloading
+2. method overloading
 '''
