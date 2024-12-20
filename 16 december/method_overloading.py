@@ -1,5 +1,4 @@
-# error code
-'''
+# error code'''
 class A:
     def add(self,x,y):
         return x+y
@@ -17,7 +16,7 @@ class A:
 obj = A()
 x=obj.add(10,20)
 print(x)
-y=obj.add(10,20,30)
+y=obj.add(10,20,30)+62
 print(y)
 
 
@@ -27,4 +26,5 @@ class B(A):
 class C(B):
 class D:
 class E(C,D):
-    '''
+    
+/'''
